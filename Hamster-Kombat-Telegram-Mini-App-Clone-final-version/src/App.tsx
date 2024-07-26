@@ -136,7 +136,7 @@ const App: React.FC = () => {
         <div className="px-4 z-10">
           <div className="flex items-center space-x-2 pt-4">
             <div className="p-1 rounded-lg bg-[#1d2025]">
-              <Hamster size={24} className="text-[#d4d4d4]" />
+              <img src={dollar-coin} className=" h-[25px] w-[-25px] text-[#d4d4d4]" />
             </div>
             <div>
               <p className="text-sm">AMIR (CEO)</p>
