@@ -136,10 +136,10 @@ const App: React.FC = () => {
         <div className="px-4 z-10">
           <div className="flex items-center space-x-2 pt-4">
             <div className="p-1 rounded-lg bg-[#1d2025]">
-              <img src={dollarCoin} className=" h-[25px] w-[-25px] text-[#d4d4d4]" />
+              <Hamster size={24} className="text-[#d4d4d4]" />
             </div>
             <div>
-              <p className="text-sm">AMIR (CEO)</p>
+              <p className="text-sm">amir (CEO)</p>
             </div>
           </div>
           <div className="flex items-center justify-between space-x-4 mt-1">
@@ -205,11 +205,12 @@ const App: React.FC = () => {
 
             <div className="px-4 mt-4 flex justify-center">
               <div
-                className="w-80 h-80 p-4 rounded-full
+                className="w-80 h-80 p-4 rounded-full circle-outer"
                 onClick={handleCardClick}
               >
-                 <img src={dollarCoin} alt="Main Character" className="w-full h-full" />
-              
+                <div className="w-full h-full rounded-full circle-inner">
+                  <img src={mainCharacter} alt="Main Character" className="w-full h-full" />
+                </div>
               </div>
             </div>
           </div>
